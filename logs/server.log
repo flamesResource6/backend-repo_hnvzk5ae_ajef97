@@ -1,11 +1,15 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [115] using StatReload
-INFO:     Started server process [117]
+INFO:     Started reloader process [146] using StatReload
+INFO:     Started server process [148]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:40670 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:45734 - "POST /api/seed HTTP/1.1" 404 Not Found
-INFO:     172.20.0.1:45724 - "POST /api/seed HTTP/1.1" 404 Not Found
-INFO:     172.20.0.1:45724 - "GET /api/products HTTP/1.1" 404 Not Found
-INFO:     172.20.0.1:45724 - "GET /api/products HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:56970 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:56978 - "POST /api/seed HTTP/1.1" 200 OK
+INFO:     172.20.0.1:56986 - "POST /api/seed HTTP/1.1" 200 OK
+INFO:     172.20.0.1:56978 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:56986 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:55288 - "POST /api/seed HTTP/1.1" 200 OK
+INFO:     172.20.0.1:55292 - "POST /api/seed HTTP/1.1" 200 OK
+INFO:     172.20.0.1:55292 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:55292 - "GET /api/products HTTP/1.1" 200 OK
